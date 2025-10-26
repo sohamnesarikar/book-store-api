@@ -1,0 +1,18 @@
+{
+  "name": "book-store-api",
+  "version": "1.0.0",
+  "description": "This is book store api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Soham Nesarikar",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}
